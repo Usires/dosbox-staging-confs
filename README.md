@@ -13,7 +13,7 @@ Config files are compatible with the latest stable releases of [DosBox Staging](
 # Installing FluidSynth and SoundFonts
 
 `fluidsynth` is the MIDI synthesizer. A SoundFont is also required to play MIDI files. The examples below install the free **FluidR3 GM** General MIDI SoundFont for popular GNU/Linux based distributions.
-Please search your distributions repository contents for `fluid*` in case the examples below dont' work on your installation. You need "FluidSynth" as software component and a corresponding soundfont to make it work.  
+Please search your distributions repository contents for `fluid*` in case the examples below don't work on your installation. You need "FluidSynth" as software component and a corresponding soundfont to make it work.  
 
 > [!TIP]
 > You can use FluidSynth to emulate General MIDI/MPU-401 music in many DOS games. Not all games will work with this approach, but a lot will. Installing FluidSynth on your system is the basis for the DosBox Staging config files found in this repo. You can always fall back to FM Synth/Soundblaster/Adlib music if you want the original experience from the earlier days. Using FluidSynth brings you very good MIDI music quality to your beloved games and can improve your replay of these old classics.
@@ -92,7 +92,7 @@ rpm-ostree install fluidsynth fluid-soundfont-gm fluid-soundfont-gs
 systemctl reboot
 ```
 
-## Testing
+## Testing your FluidSynth installation
 
 FluidSynth can be started directly with a SoundFont and a MIDI file:
 
@@ -105,3 +105,5 @@ Example for Arch Linux or CachyOS:
 ```bash
 fluidsynth -a pipewire -m alsa_seq /usr/share/soundfonts/FluidR3_GM.sf2 test.mid
 ```
+
+You can find many poopular game soundtracks in MIDI format for testing at [VGMusic.com](https://www.vgmusic.com).
