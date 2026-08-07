@@ -106,4 +106,10 @@ Example for Arch Linux or CachyOS:
 fluidsynth -a pipewire -m alsa_seq /usr/share/soundfonts/FluidR3_GM.sf2 test.mid
 ```
 
-You can find many poopular game soundtracks in MIDI format for testing at [VGMusic.com](https://www.vgmusic.com).
+You can find many popular game soundtracks in MIDI format for testing at [VGMusic.com](https://www.vgmusic.com).
+
+## Alternative soundfont for MS-DOS games
+
+A very good alternative to the FluidSynth soundfonts is ["GeneralUser GS" from composer S. Christian Collins](https://schristiancollins.com/generaluser.php). Download the soundfont (ca. 30 MB) from his website and place in the folder with your other soundfonts, i.e. `/usr/share/soundfonts/`.
+
+>GeneralUser GS is a Roland GS and General MIDI (GM) compatible SoundFont bank for composing, playing MIDI files, and retro gaming. It features 261 instrument presets and 13 drum kits, all while possessing a very low memory footprint (30.7 MB of RAM). GeneralUser GS features detailed instrument programming, making heavy use of SoundFont synthesis and modulator features.
